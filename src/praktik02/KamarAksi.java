@@ -6,6 +6,8 @@ public class KamarAksi {
         kamar r1 = new kamar();
         r1.lebar = 15;
         r1.luas = 30;
+        
+        r1.cetakInfo();
     }
     
 }
