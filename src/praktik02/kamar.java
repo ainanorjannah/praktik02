@@ -20,5 +20,8 @@ public class kamar {
         luas=panjang+lebar;
         return luas;
     }
+    void cetakLuasKamar(){
+        System.out.println("Luasnya adalah : "+hitungLuasKamar());
     
+    }
 }

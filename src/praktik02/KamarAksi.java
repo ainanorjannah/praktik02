@@ -9,6 +9,7 @@ public class KamarAksi {
         
         r1.cetakInfo();
         System.out.println("Luas Kamar = "+hitungLuasKamar());
+        r1.cetakLuasKamar();
     }
     
 }
