@@ -6,12 +6,19 @@
  * @author PC
  */
 public class kamar {
-    double luas;
+    double panjang;
     double lebar;
     
     void cetakInfo(){
-        System.out.println("Luas             :"+luas);
+        System.out.println("Panjang             :"+panjang);
         System.out.println("Lebar            :"+lebar);
+    }
+    
+    
+    double hitungLuasKamar(){
+        double luas;
+        luas=panjang+lebar;
+        return luas;
     }
     
 }
