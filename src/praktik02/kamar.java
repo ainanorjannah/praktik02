@@ -8,6 +8,13 @@
 public class kamar {
     double panjang;
     double lebar;
+
+    public kamar() {
+        panjang=90;
+        lebar=80;
+    }
+    
+    
     
     void cetakInfo(){
         System.out.println("Panjang             :"+panjang);
